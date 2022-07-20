@@ -7,12 +7,132 @@
 
 /*노트북*/
   @media screen and (max-width:1024px) {
+
+    .ab3_cont_box{
+      padding: 2% 1.5% 1%;
+    }
+
+    .ab3_cont_box img{
+      max-width: 20%;
+    }
+
+    .ab3_cont_box h4{
+      font-size: 0.9em;
+    }
+
+    .ab3_cont_box p{
+      font-size: 0.74em;
+    }
+
+    
+    .ab3_cont_box p br{
+      display: none;
+    }
+
+    .ab3_txt_spe{
+      font-size: 0.6em;
+      letter-spacing: -1px;
+    }
+
+
+
+
+    /*coin*/
+
+
+    .coin_cont_left{
+      width: 35%;
+      margin-left: -5%;
+    }
+
+    .coin_cont_right{
+      width: 50%;
+    }
+
+
+
+
+
 }
 
 
 
   /*아이패드 (768px)*/
   @media screen and (max-width:991px) {
+    .ab3_cont{
+      display: block;
+    }
+
+    .ab3_cont_box{
+      width: 40%;
+      margin: 0 auto 5%;
+      padding: 4%;
+    }
+
+    .ab3_cont_box p{
+      font-size: 0.8em;
+    }
+
+
+
+    /*coin*/
+
+    .coin_contents{
+      display: block;
+      padding: 100px 50px;
+    }
+
+    .coin_txt{
+      font-size: 0.9em;
+    }
+
+    .coin_contents h4{
+      margin-bottom: 8%;
+      margin-left: 12%;
+    }
+
+    
+    .coin_cont_left{
+      width: 100%;
+    }
+
+    .coin_cont_left_top{
+      justify-content: space-around;
+      margin-left: 2%;
+      text-align: center;
+    }
+
+    .coin_cont_left_top li{
+      margin-left: 0;
+    }
+
+    .coin_cont_left_bottom{
+      text-align: center;
+    }
+
+    .coin_cont_right{
+      width: 100%;
+      margin-top: 10%;
+    }
+
+    .coin_cont_right_left{
+      width: 100%;
+    }
+
+    .coin_cont_right_left h4{ 
+      width: 40%;
+      margin-left: 44%;
+    }
+
+    .coin_cont_right_left img{
+      max-width: 60%;
+      margin-left: -30%;
+    }
+
+    .coin_cont_right_right{
+      margin-top: 7%;
+      margin-left: -20%;
+    }
 }
 
 
@@ -20,6 +140,42 @@
 /*모바일*/
 
 @media screen and (max-width:767px) {
+  .ab3_cont_box{
+    width: 60%;
+  }
+  
+  .ab3_box_sec{
+    padding-bottom:10%;
+  }
+
+  .ab3_txt_spe{
+    font-size: 0.71em;
+    letter-spacing: -1px;
+  }
+
+
+
+
+
+  /*coin*/
+
+  #coin{
+    padding: 100px 20px;
+  }
+
+  .coin_txt br{
+    display: none;
+  }
+
+  .coin_contents{
+    width: 100%;
+  }
+
+  .coin_cont_right_left img{
+    max-width: 55%;
+    margin-left: -50%;
+    margin-top: 5%;
+  }
 
 }
 
@@ -28,7 +184,37 @@
 
 
 @media screen and (max-width:576px) {
+  .ab3_cont_box{
+    width: 72%;
+  }
 
+
+
+  /*coin*/
+
+  .coin_txt{
+    font-size: 0.84em;
+  }
+
+  .coin_contents{
+    padding: 70px 0;
+  }
+
+  .coin_cont_right{
+    display: block;
+  }
+
+  .coin_cont_right_left h4{
+    margin-left: 30%;
+  }
+
+  .coin_cont_right_left img{
+    margin-left: 0;
+  }
+
+  .coin_cont_right_right{
+    margin: 0 auto;
+  }
 }
 
 
@@ -36,7 +222,19 @@
 /*모바일3 갤럭시*/
 
   @media screen and (max-width:425px) {
+    .ab3_cont_box p{
+      font-size: 0.7em;
+    }
 
+    .ab3_txt_spe{
+      font-size: 0.59em;
+    }
+
+    .ab3_box_sec{
+      padding-bottom:13%;
+    }
+  
+  
 }
 
 
@@ -44,4 +242,5 @@
 /*모바일4 아이폰*/
     @media screen and (max-width:375px) {
 
+  
 }
