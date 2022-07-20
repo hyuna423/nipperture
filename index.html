@@ -1,101 +1,186 @@
 <!DOCTYPE html>
 <html lang="ko" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Nipperture</title>
 
-    <!--meta-->
-      <meta name="viewport" content="width=device-width,initial-scal=1">
-      <meta http-equiv="X-UA-Compatible" content="le=edge">
+<head>
+  <meta charset="utf-8">
+  <title>Nipperture</title>
 
-    <!--js-->
-      <script src ="http://code.jquery.com/jquery-latest.js"></script>
-	  <script src ="js/menu_scroll.js"></script>
-	  
-	 <!--bootstrap-->
-      <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!--meta-->
+  <meta name="viewport" content="width=device-width,initial-scal=1">
+  <meta http-equiv="X-UA-Compatible" content="le=edge">
 
-    <!--css-->
-	  <link rel="stylesheet" href="css/reset.css">
-      <link rel="stylesheet" href="css/index.css">
-      <link rel="stylesheet" href="css/moblie.css">
+  <!--js-->
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  <script src="js/menu_scroll.js"></script>
 
-    <!--favicon--->
-      <link href="img/favicon.ico" rel="icon">
-      <link href="img/favicon.ico" rel="apple-touch-icon">
+  <!--bootstrap-->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!--css-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/moblie.css">
 
 
-  </head>
+  <!--favicon--->
+  <link href="img/favicon.ico" rel="icon">
+  <link href="img/favicon.ico" rel="apple-touch-icon">
+
+
+</head>
 
 
 
-  <body>
+<body>
 
 
-    <header>
+  <header class="activated">
 
-      <div class="">
+    <div class="hd_wrap">
 
-        <hgroup>
+      <hgroup>
 
-          <h1><img src="img/nipperture_logo.png" alt="logo"></h1>
+        <h1><img src="img/nipperture_logo.png" alt="logo"></h1>
 
-        </hgroup>
-
-
-        <nav class="">
-          <ul>
-
-            <li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
-
-          </ul>
-        </nav>
+      </hgroup>
 
 
-        <!--반응형-->
+      <nav class="pc_wrap">
+        <ul>
 
-        <div class="">
+          <li><a href="#home" class="scrool">Home</a></li>
+          <li><a href="#about" class="scrool">About</a></li>
+          <li><a href="#coin" class="scrool">NFCR Coin</a></li>
+          <li><a href="#roadmap" class="scrool">Roadmap</a></li>
+          <li><a href="#contact" class="scrool">Contact</a></li>
+          <li><a href="index_eng.html" class="site"><img src="img/wep_eng.png" alt="eng_site"></a></li>
 
-          <img src="img/nipperture_logo.png" alt="menu_button">
+        </ul>
+      </nav>
 
-        </div>
 
-        <nav class="">
+      <!--반응형-->
 
-          <ul>
+      <div class="ham_bt">
 
-            <li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
-
-          </ul>
-
-        </nav>
-
-                  <!--반응형 js-->
-                <script type="text/javascript">
-                      $(function() {
-                $("").click(function() {
-                  $("").animate({width:"toggle"},250);
-                });
-                });
-
-                </script>
+        <i class="xi-apps"></i>
 
       </div>
 
-    </header>
+      <nav class="mb_menu">
+
+        <ul>
+
+          <li><a href="#home" class="scrool">Home</a></li>
+          <li><a href="#about" class="scrool">About</a></li>
+          <li><a href="#coin" class="scrool">NFCR Coin</a></li>
+          <li><a href="#roadmap" class="scrool">Roadmap</a></li>
+          <li><a href="#contact" class="scrool">Contact</a></li>
+          <li><a href="index_eng.html" class="site"><img src="img/wep_eng.png" alt="eng_site"></a></li>
+
+        </ul>
+
+      </nav>
+
+      <!--반응형 js-->
+      <script type="text/javascript">
+        $(function () {
+          $(".ham_bt").click(function () {
+            $(".mb_menu").animate({ width: "toggle" }, 230);
+          });
+        });
+      </script>
+
+    </div>
+
+  </header>
 
 
+  <main>
+
+    <section id="home">
+      <video autoplay muted loop playsinline>
+        <source src="video/main_bg.mp4" type="video/mp4">
+      </video>
+      <div class="main_area">
+        <div class="main_txt">
+
+          <h2><b>NukPLAN</b><br></h2>
+          <span> 안전하고 수익성 높은 민간 원전개발,<br>
+            블록체인으로 구현합니다</span>
+          <p>민간 주도 원전개발의 혁신 <br>
+            블록체인 기반 안전하고 수익성 높은 원전개발 사업 <br>
+            누크플랜만의 혁신적인 플랫폼으로 구현합니다.
+          </p>
+          <div class="main_bt">
+            <a href="">
+              Whitepaper</a>
+            <a href="">
+              Wallet</a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
 
 
-  </body>
+    <section id="about">
+      <div class="about_area container">
+        <div class="ab_txt">
+          <h3>ABOUT</h3>
+          <p>
+            Nipperture의 첫번째 자산 디지털 에셋 프로젝트는 부동산 자산부터 시작합니다.<br>
+            부동산은 역사적으로 불변의 자산이었고, 현재에도 가장 각광받는 안정적인 실물 자산 입니다.<br>
+            매우 좋은 자산으로서 가치를 지닌 부동산이지만 유동성이 부족하다는 점이 부동산의 자산이<br>
+            가진 단점 중 가장 단점으로 뽑을 수 있습니다.<br class="must">
+            <br class="must">
+            
+            Nipperture 는 각 부동산 상품을 토큰화 하여 자산형 토큰 형태로 판매 합니다.<br>
+            부동산 매각은 Nipperture 부동산 토큰 구매자들에게 위임받아 진행하며,<br>
+            구매 시 약속된 수익률을 달성할 경우 자동으로 매각이 진행 됩니다.<br class="must">
+            <br class="must">
+            
+            임대수익은 3개월 단위로 지급되고, 매각수익은 매각발생 시에 지급된다.<br>
+            부동산 토큰 투자자들은 Nipperture 플랫폼 토큰 Market을 통해서 부동산 토큰을 재판매하여 <br>
+            환금성을 가질 수 있습니다.<br>
+          </p>
+        </div>
+
+        <div class="ab_pic">
+          <img src="img/ad_con.png" alt="ab_pic">
+        </div>
+      </div>
+
+    </section>
+
+    <section id="about_02">
+      <div class="ab02_bg">
+        <img src="img/ab2_logo_bg.png" alt="">
+      </div>
+      <div class="ab02_area container">
+        <div class="ab02_txt">
+          <h3>Nipperture <br>
+            Blockchain Systems</h3>
+          
+          <p>
+            Nipperture를 가지고 있는 모든분들은 부동산을 구입 및 판매를 자유롭게 할 수 있습니다.<br>
+            Nipperture는 비교적 소액으로 부동산 투자와 관련된 다양한 개인과 기업들이 자유롭게 참여<br>
+            가능한 블록체인 기반의 분산화 된 생태계 입니다.<br class="must">
+            <br class="must">
+            Nipperture 플랫폼의 참여자들은 생태계 내에서 각자의 필요와 역할을 수행하고<br>
+            각 역할을 정상적으로 수행 하였을 때 Nipperture 플랫폼내에서 보상을 받을 수 있습니다.<br>
+          </p>
+          
+        </div>
+        <img src="img/blockchain_systems.png" alt="blockchain_systems">
+        <img class="blockchain_mo" src="img/blockchain_systems_mo.png" alt="">
+      </div>
+    </section>
+  </main>
+
+</body>
 
 
 </html>
