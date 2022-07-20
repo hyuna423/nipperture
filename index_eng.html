@@ -1,103 +1,185 @@
 <!DOCTYPE html>
 <html lang="ko" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Nipperture</title>
 
-    <!--meta-->
-      <meta name="viewport" content="width=device-width,initial-scal=1">
-      <meta http-equiv="X-UA-Compatible" content="le=edge">
+<head>
+  <meta charset="utf-8">
+  <title>Nipperture</title>
 
-    <!--js-->
-      <script src ="http://code.jquery.com/jquery-latest.js"></script>
-	  <script src ="js/menu_scroll.js"></script>
+  <!--meta-->
+  <meta name="viewport" content="width=device-width,initial-scal=1">
+  <meta http-equiv="X-UA-Compatible" content="le=edge">
 
-	 <!--bootstrap-->
-      <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!--js-->
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  <script src="js/menu_scroll.js"></script>
 
+  <!--bootstrap-->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!--css-->
-	  <link rel="stylesheet" href="css/reset.css">
-      <link rel="stylesheet" href="css/index.css">
-      <link rel="stylesheet" href="css/moblie.css">
-	  <link rel="stylesheet" href="css/index_eng.css">
-
-    <!--favicon--->
-      <link href="img/favicon.ico" rel="icon">
-      <link href="img/favicon.ico" rel="apple-touch-icon">
+  <!--css-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/moblie.css">
+  <link rel="stylesheet" href="css/index_eng.css">
 
 
-  </head>
+  <!--favicon--->
+  <link href="img/favicon.ico" rel="icon">
+  <link href="img/favicon.ico" rel="apple-touch-icon">
+
+
+</head>
 
 
 
-  <body>
+<body>
 
 
-    <header>
+  <header class="activated">
 
-      <div class="">
+    <div class="hd_wrap">
 
-        <hgroup>
+      <hgroup>
 
-          <h1><img src="img/nipperture_logo.png" alt="logo"></h1>
+        <h1><img src="img/nipperture_logo.png" alt="logo"></h1>
 
-        </hgroup>
-
-
-        <nav class="">
-          <ul>
-
-            <li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
-
-          </ul>
-        </nav>
+      </hgroup>
 
 
-        <!--반응형-->
+      <nav class="pc_wrap">
+        <ul>
 
-        <div class="">
+          <li><a href="#home" class="scrool">Home</a></li>
+          <li><a href="#about" class="scrool">About</a></li>
+          <li><a href="#coin" class="scrool">NFCR Coin</a></li>
+          <li><a href="#roadmap" class="scrool">Roadmap</a></li>
+          <li><a href="#contact" class="scrool">Contact</a></li>
+          <li><a href="index_eng.html" class="site"><img src="img/wep_eng.png" alt="eng_site"></a></li>
 
-          <img src="img/nipperture_logo.png" alt="menu_button">
+        </ul>
+      </nav>
 
-        </div>
 
-        <nav class="">
+      <!--반응형-->
 
-          <ul>
+      <div class="ham_bt">
 
-            <li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
-
-          </ul>
-
-        </nav>
-
-                  <!--반응형 js-->
-                <script type="text/javascript">
-                      $(function() {
-                $("").click(function() {
-                  $("").animate({width:"toggle"},250);
-                });
-                });
-
-                </script>
+        <i class="xi-apps"></i>
 
       </div>
 
-    </header>
+      <nav class="mb_menu">
+
+        <ul>
+
+          <li><a href="#home" class="scrool">Home</a></li>
+          <li><a href="#about" class="scrool">About</a></li>
+          <li><a href="#coin" class="scrool">NFCR Coin</a></li>
+          <li><a href="#roadmap" class="scrool">Roadmap</a></li>
+          <li><a href="#contact" class="scrool">Contact</a></li>
+          <li><a href="index_eng.html" class="site"><img src="img/wep_eng.png" alt="eng_site"></a></li>
+
+        </ul>
+
+      </nav>
+
+      <!--반응형 js-->
+      <script type="text/javascript">
+        $(function () {
+          $(".ham_bt").click(function () {
+            $(".mb_menu").animate({ width: "toggle" }, 230);
+          });
+        });
+      </script>
+
+    </div>
+
+  </header>
 
 
+  <main>
+
+    <section id="home">
+      <video autoplay muted loop playsinline>
+        <source src="video/main_bg.mp4" type="video/mp4">
+      </video>
+      <div class="main_area">
+        <div class="main_txt">
+
+          <h2><b>NukPLAN</b><br></h2>
+          <span> Safe and profitable private nuclear power plant development and implementation as a blockchain</span>
+          <p>Based on the innovation blockchain of private-led nuclear power plant development, it is implemented as an
+            innovative platform unique to Nuk Plan, a safe and profitable nuclear power plant development project.
+          </p>
+          <div class="main_bt">
+            <a href="">
+              Whitepaper</a>
+            <a href="">
+              Wallet</a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
 
 
-  </body>
+    <section id="about">
+      <div class="about_area container">
+        <div class="ab_txt">
+          <h3>ABOUT</h3>
+          <p>
+            Nipperture's first Asset Digital Asset project starts with real estate assets. Real estate has historically
+            been an immutable asset, and it is still the most stable real asset in the spotlight today. Although real
+            estate is valuable as a very good asset, the lack of liquidity can be cited as the most disadvantage of real
+            estate assets.<br class="must">
+            <br class="must">
+
+            Nipperture tokenizes each real estate product and sells it in the form of an asset token. The sale of the
+            property is entrusted to the buyers of the Nipperture property token, and the sale will proceed
+            automatically if the promised return is achieved at the time of purchase.<br class="must">
+            <br class="must">
+
+            Rental income is paid every three months, and sales income is paid at the time of sale. Real estate token
+            investors can resell real estate tokens through the Nipperture platform token market to have
+            exchangeability.<br>
+          </p>
+        </div>
+
+        <div class="ab_pic">
+          <img src="img/ad_con.png" alt="ab_pic">
+        </div>
+      </div>
+
+    </section>
+
+    <section id="about_02">
+      <div class="ab02_bg">
+        <img src="img/ab2_logo_bg.png" alt="">
+      </div>
+      <div class="ab02_area container">
+        <div class="ab02_txt">
+          <h3>Nipperture <br>
+            Blockchain Systems</h3>
+
+          <p>
+            Anyone who owns Nipperture is free to buy and sell real estate.
+            Nipperture is a blockchain-based decentralized ecosystem where various individuals and companies related to
+            real estate investment can freely participate in relatively small amounts.<br class="must">
+            <br class="must">
+            Participants in the Nipperture platform perform their own needs and roles within the ecosystem
+            If you perform each role normally, you can receive rewards within the Nipperture platform.
+          </p>
+
+        </div>
+        <img src="img/blockchain_systems_eng.png" alt="blockchain_systems">
+        <img class="blockchain_mo" src="img/blockchain_systems_mo_eng.png" alt="">
+      </div>
+    </section>
+  </main>
+
+</body>
 
 
 </html>
