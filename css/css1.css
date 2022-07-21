@@ -1,0 +1,177 @@
+
+css
+*{margin:0; padding:0; box-sizing:border-box;}
+    a{text-decoration : none;}
+    address{font-style:normal;}
+
+
+
+h3{
+  font-size: 2.5em;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #E67927;
+}
+
+
+
+
+/*헤더*/
+
+/*section*/
+#roadmap{
+  height: 980px;
+  background: url(../img/roadmap_bg.png)no-repeat;
+  margin:0 auto;
+}
+
+h3 {
+  font-size: 45px;
+  text-align: center;
+  margin : 0 auto;
+  padding-top: 5%;
+}
+
+h4{
+font-size: 32px;
+margin-top: 20px;
+}
+p{font-size: 20px;}
+.mapbox{
+  width:90%;
+  height:80%;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 5%;
+  background: #ccc;
+}
+
+.map1{
+  float: left;
+  margin:  0 auto;
+  background-color: #EDF2F4;
+  opacity: 0.6;
+  width: 20%;
+  height: 18%;
+  margin-left:20%;
+  text-align: center;
+  border-radius: 23px;
+  justify-content: space-evenly; 
+}
+
+
+.map2{
+  float: left;
+  background-color: #EDF2F4;
+  opacity: 0.6;
+  width: 20%;
+  height: 18%;
+  text-align: center;
+  border-radius: 23px;
+  margin-left: 3%;
+  justify-content: space-evenly;
+}
+
+.map3{
+  float: left;
+  margin:  0 auto;
+  margin-left: 3%;
+  background-color: #EDF2F4;
+  opacity: 0.6;
+  width: 20%;
+  height: 18%;
+  text-align: center;
+  border-radius: 23px;
+  justify-content: space-evenly; 
+}
+
+
+.map4{
+  float: left;
+  background-color: #EDF2F4;
+  opacity: 0.6;
+  width: 20%;
+  height: 18%;
+  text-align: center;
+  border-radius: 23px;
+  margin-left: 3%;
+  justify-content: space-evenly;
+}
+
+.map5 {
+  float: right;
+  background-color: #EDF2F4;
+  opacity: 0.6;
+  width: 20%;
+  height: 18%;
+  text-align: center;
+  border-radius: 23px;
+  margin-left: 3%;
+  justify-content: space-evenly;
+}
+
+.map6{
+  float: left;
+  margin-top: 15%;
+  background-color: #EDF2F4;
+  opacity: 0.6;
+  width: 20%;
+  height: 18%;
+
+  text-align: center;
+  border-radius: 23px;
+  justify-content: space-evenly; 
+}
+
+
+.map7{
+  float: left;
+  background-color: #EDF2F4;
+  opacity: 0.6;
+  width: 20%;
+  height: 18%;
+  text-align: center;
+  border-radius: 23px;
+  margin-left: 3%;
+  margin-top: 15%;
+  justify-content: space-evenly;
+}
+
+.map8{
+  float: left;
+  margin:  0 auto;
+  margin-left: 3%;
+  margin-top: 15%;
+  background-color: #EDF2F4;
+  opacity: 0.6;
+  width: 20%;
+  height: 18%;
+  text-align: center;
+  border-radius: 23px;
+  justify-content: space-evenly; 
+}
+
+
+.map9{
+  float: left;
+  background-color: #EDF2F4;
+  opacity: 0.6;
+  width: 20%;
+  height: 18%;
+  text-align: center;
+  border-radius: 23px;
+  margin-left: 3%;
+  justify-content: space-evenly;
+}
+
+.map10{
+  float: left;
+  background-color: #EDF2F4;
+  opacity: 0.6;
+  width: 20%;
+  height: 18%;
+  text-align: center;
+  border-radius: 23px;
+  margin-left: 3%;
+  justify-content: space-evenly;
+}
