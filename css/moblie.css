@@ -5,10 +5,6 @@
     width: 38%;
   }
 
-  #home .main_area .main_txt span{
-    font-size: 1.8em;
-  }
-
   #home .main_area .main_txt p{
     margin: 10px 0 40px 0;
   }
@@ -68,6 +64,7 @@
 
 /*노트북*/
 @media screen and (max-width:1024px) {
+
   .pc_wrap {
     display: none;
   }
@@ -77,18 +74,14 @@
   }
 
   #home .main_area {
-    height: 50%;
+    width: 60%;
+    height: 45%;
     padding:68px;
-  }
-
-  #home .main_area .main_txt span {
-    font-size: 1.5em;
-    font-weight: 550;
   }
 
   #home .main_area .main_txt p {
     margin: 25px 0;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   #home .main_area .main_txt .main_bt a {
@@ -162,8 +155,6 @@
   }
 
 
-
-
   /*coin*/
 
 
@@ -201,12 +192,8 @@
 
 
   #home .main_area {
-    height: 55%;
+    height: 50%;
     width: 65%;
-  }
-
-  #home .main_area .main_txt span {
-    font-size: 1.2em;
   }
 
   #home .main_area .main_txt .main_bt {
@@ -501,17 +488,13 @@ footer .footer_area .footer_sns {
     display: none;
   }
 
-  #home .main_area .main_txt span {
-    font-size: .9em;
-  }
-
   #about .about_area .ab_txt {
     width: 90%;
   }
 
   #home .main_area .main_txt p {
     margin: 30px 0;
-    font-size: .8rem;
+    font-size: 1rem;
   }
 
   #home .main_area .main_txt .main_bt a {
@@ -648,7 +631,7 @@ footer .footer_area .footer_sns {
 @media screen and (max-width:375px) {
 
   #home .main_area {
-    height: 50%;
+    height: 45%;
   }
 
   #home .main_area .main_txt h2 {
