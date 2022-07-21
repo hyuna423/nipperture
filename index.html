@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="ko" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Nipperture</title>
+
+<head>
+  <meta charset="utf-8">
+  <title>Nipperture</title>
 
 
   <!--meta-->
@@ -29,77 +30,94 @@
 
 
 
-  </head>
+</head>
 
 
 
-  <body>
+<body>
 
 
-    <header>
+  <main>
 
-      <div class="">
-
-        <hgroup>
-
-          <h1><img src="img/nipperture_logo.png" alt="logo"></h1>
-
-        </hgroup>
-
-
-        <nav class="">
-          <ul>
-
-            <li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
-
-          </ul>
-        </nav>
-
-
-        <!--반응형-->
-
-        <div class="">
-
-          <img src="img/nipperture_logo.png" alt="menu_button">
-
-        </div>
-
-        <nav class="">
-
-          <ul>
-
-            <li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
-
-          </ul>
-
-        </nav>
-
-                  <!--반응형 js-->
-                <script type="text/javascript">
-                      $(function() {
-                $("").click(function() {
-                  $("").animate({width:"toggle"},250);
-                });
-                });
-
-                </script>
-
+    <section id="roadmap">
+      <div class="roadmap_area container">
+        <h3>Roadmap</h3>
+        <img src="img/roadmap_img.png" alt="roadmap">
       </div>
-
-    </header>
-
+    </section>
 
 
 
-  </body>
+    <section id="contact">
+      <div class="contact_area container">
+        <h3>Contact</h3>
+
+        <div class="contact_box">
+          <div class="con_left">
+            <h4>LEAVE US MESSAGE</h4>
+            <form class="gform" action="" method="post" data-email="">
+
+              <input type="email" value="" name="email" placeholder="Email" class="email" required>
+
+              <textarea name="message" id="message" placeholder="Message"></textarea>
+
+              <input type="submit" value="SEND" class="send">
+
+            </form>
+          </div>
+
+
+          <div class="con_right">
+            <div class="ceo">
+              <span>
+                <img src="img/ceo_icon.png" alt="ceo">
+                CEO
+              </span>
+              <p></p>
+            </div>
+
+            <div class="add">
+              <span>
+                <img src="img/address_icon.png" alt="address">
+                ADDRESS
+              </span>
+              <p></p>
+            </div>
+
+            <div class="phone">
+              <span>
+                <img src="img/phone_icon.png" alt="phone">
+                PHONE
+              </span>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+  <footer id="footer">
+    <div class="footer_area container">
+      <div class="footer_logo">
+        <a href=""><img src="img/footer_logo.png" alt="logo"></a>
+      </div>
+      <div class="footer_white">
+        <h4>White paper</h4>
+        <a href="">white paper ver.Ko <img src="img/wep_ko.png" alt=""></a>
+        <a href="">white paper ver.EN <img src="img/wep_eng.png" alt=""></a>
+      </div>
+      <div class="footer_sns">
+        <h4>S N S</h4>
+        <a href=""><img src="img/telegram.png" alt="telegram"></a>
+      </div>
+    </div>
+
+  </footer>
+
+
+</body>
 
 
 </html>
