@@ -4,6 +4,64 @@
   #home .main_area .main_txt .main_bt a {
     width: 38%;
   }
+
+  #home .main_area .main_txt span{
+    font-size: 1.8em;
+  }
+
+  #home .main_area .main_txt p{
+    margin: 10px 0 40px 0;
+  }
+
+
+  #about .about_area .ab_txt p br{
+    display: none;
+  }
+
+  .ab3_cont_box{
+    width: 24%;
+    padding: 3% 1% 2%;
+  }
+
+  .ab3_cont_box:first-child p br{
+    display: none;
+  }
+
+  .coin_cont_left_top{
+    width: 80%;
+    justify-content: space-between;
+    margin-left: 0;
+  }
+  
+
+  .coin_cont_left_bottom{
+    justify-content: space-between;
+    margin-left: 0;
+  }
+
+
+  #roadmap .roadmap_area img {
+    max-width: 80%;
+  }
+
+  #contact .contact_area .contact_box .con_left {
+    width: 40%;
+  }
+
+
+  .contact_box .con_right {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10%;
+  }
+
+  footer .footer_area .footer_sns {
+    width: 10%;
+}
+
+
 }
 
 
@@ -20,7 +78,7 @@
 
   #home .main_area {
     height: 50%;
-    padding: 47px;
+    padding:68px;
   }
 
   #home .main_area .main_txt span {
@@ -29,7 +87,7 @@
   }
 
   #home .main_area .main_txt p {
-    margin: 30px 0;
+    margin: 25px 0;
     font-size: 1rem;
   }
 
@@ -77,6 +135,58 @@
     z-index: -1;
   }
 
+  .ab3_cont_box{
+    padding: 2% 1.5% 1%;
+  }
+
+  .ab3_cont_box img{
+    max-width: 20%;
+  }
+
+  .ab3_cont_box h4{
+    font-size: 0.9em;
+  }
+
+  .ab3_cont_box p{
+    font-size: 0.74em;
+  }
+
+  
+  .ab3_cont_box p br{
+    display: none;
+  }
+
+  .ab3_txt_spe{
+    font-size: 0.6em;
+    letter-spacing: -1px;
+  }
+
+
+
+
+  /*coin*/
+
+
+  .coin_cont_left{
+    width: 35%;
+    margin-left: -5%;
+  }
+
+  .coin_cont_right{
+    width: 50%;
+  }
+
+  .coin_cont_left_top{
+    width: 100%;
+    justify-content: space-around;
+    margin-left: 0;
+  }
+  
+
+  .coin_cont_left_bottom{
+    justify-content: space-evenly;
+    margin-left: 30px;
+  }
 
 }
 
@@ -84,6 +194,10 @@
 
 /*아이패드 (768px)*/
 @media screen and (max-width:991px) {
+
+  h3{
+    font-size: 2.5em;
+  }
 
 
   #home .main_area {
@@ -117,6 +231,97 @@
     display: block;
   }
 
+
+  .ab3_cont{
+    display: block;
+  }
+
+  .ab3_cont_box{
+    width: 55%;
+    margin: 0 auto 5%;
+    padding: 4%;
+  }
+
+  .ab3_cont_box p{
+    font-size: 0.8em;
+  }
+
+
+  #roadmap .roadmap_area img {
+    max-width: 100%;
+  }
+
+
+  /*coin*/
+
+  .coin_contents{
+    display: block;
+    padding: 100px 50px;
+  }
+
+  .coin_txt{
+    font-size: 0.9em;
+  }
+
+  .coin_contents h4{
+    margin-bottom: 8%;
+    margin-left: 12%;
+  }
+
+  
+  .coin_cont_left{
+    width: 100%;
+  }
+
+  .coin_cont_left_top{
+    justify-content: space-evenly;
+    margin-left: 2%;
+    text-align: center;
+  }
+
+  .coin_cont_left_top li{
+    margin-left: 0;
+  }
+
+  .coin_cont_left_bottom{
+    text-align: center;
+  }
+
+  .coin_cont_right{
+    width: 100%;
+    margin-top: 10%;
+  }
+
+  .coin_cont_right_left{
+    width: 100%;
+  }
+
+  .coin_cont_right_left h4{ 
+    width: 40%;
+    margin-left: 44%;
+  }
+
+  .coin_cont_right_left img{
+    max-width: 60%;
+    margin-left: -30%;
+  }
+
+  .coin_cont_right_right{
+    margin-top: 7%;
+    margin-left: -20%;
+  }
+
+
+  #contact .contact_area .contact_box .con_left {
+    width: 50%;
+}
+
+.contact_box .con_right p{
+  margin-left: 60px;
+}
+
+
+
 }
 
 
@@ -149,6 +354,127 @@
     max-width: 100%;
   }
 
+  .ab3_cont_box{
+    width: 70%;
+  }
+
+  .ab3_cont_box h4{
+    font-size: 1.2em;
+  }
+  
+  .ab3_cont_box p{
+    font-size: 0.9em;
+  }
+
+  .ab3_box_sec{
+    padding-bottom:10%;
+  }
+
+  .ab3_txt_spe{
+    font-size: 0.71em;
+    letter-spacing: -1px;
+  }
+
+
+  /*coin*/
+
+  #coin{
+    padding: 100px 20px;
+  }
+
+  .coin_txt br{
+    display: none;
+  }
+
+  .coin_contents{
+    width: 100%;
+  }
+
+  .coin_cont_right_left img{
+    max-width: 55%;
+    margin-left: -50%;
+    margin-top: 5%;
+  }
+
+
+
+  #contact {
+    background: url(../img/contact_bg_m.png) no-repeat center center;
+    padding: 100px 0 50px;
+  }
+
+  #contact .contact_area .contact_box {
+    flex-direction: column;
+}
+
+.contact_box .con_right p {
+  color: #fff;
+  text-align: left  ;
+  font-weight: normal;
+  margin-left: 0;
+}
+
+#contact .contact_area .contact_box .con_left {
+  width: 90%;
+}
+
+.contact_box .con_right {
+  width: 90%;
+  margin-top: 30px;
+}
+
+.contact_box .con_right div {
+  width: 100%;
+}
+
+
+.contact_box .con_right p{
+  margin-left: 90px;
+  margin-top: 10px;
+}
+
+footer .footer_area {
+  flex-direction: column;
+  padding:70px 0;
+}
+
+footer .footer_area .footer_logo{
+  width: 100%;
+  text-align: center;
+}
+
+footer .footer_area .footer_logo a{
+  margin: 0 auto;
+}
+
+footer .footer_area .footer_logo img{
+  width: 40%;
+}
+
+footer .footer_area .footer_white {
+  margin: 40px 0;
+  width: 100%;
+  text-align: center;
+}
+
+footer .footer_area .footer_white a{
+  display: block;
+  text-align: center;
+  margin: 30px auto;
+  width: 60%;
+}
+
+footer .footer_area .footer_sns img {
+  width:15%
+}
+
+footer .footer_area .footer_sns {
+  width: 100%;
+  text-align: center;
+}
+
+
+
 }
 
 
@@ -156,9 +482,8 @@
 
 
 @media screen and (max-width:576px) {
-  h3 {
-    font-size: 2em;
-  }
+ 
+  
 
   #home .main_area {
     width: 90%;
@@ -215,7 +540,48 @@
     max-width: 90%;
     display: block;
   }
+
+  .ab3_cont_box{
+    width: 72%;
+  }
+
+
+
+  /*coin*/
+
+  .coin_txt{
+    font-size: 0.84em;
+  }
+
+  .coin_contents{
+    padding: 70px 0;
+  }
+
+  .coin_cont_right{
+    display: block;
+  }
+
+  .coin_cont_right_left h4{
+    margin-left: 30%;
+  }
+
+  .coin_cont_right_left img{
+    margin-left: 0;
+  }
+
+  .coin_cont_right_right{
+    margin: 0 auto;
+  }
+
+
+  .contact_box .con_right span {
+    font-size: 1.2em;
 }
+
+
+
+}
+
 
 
 
@@ -223,14 +589,22 @@
 
 @media screen and (max-width:425px) {
 
+  h3 {
+    font-size:1.8em;
+  }
 
+  .mb_menu ul li a{
+    font-size: 1.5em;
+    line-height: 3.5;
+  }
+  
 
   #home .main_area {
     padding: 59px 20px;
   }
 
-  #home .main_area .main_txt h2 {
-    font-size: 2.5em;
+  #home .main_area .main_txt h2 b{
+    font-size: 3em;
   }
 
   #home .main_area .main_txt .main_bt a {
@@ -242,6 +616,29 @@
     line-height: 1.7em;
     font-size: 0.8em;
   }
+
+  .ab3_cont_box{
+    width: 85%;
+    padding: 5% 6%;
+  }
+
+  .ab3_cont_box h4{
+    font-size: 1em;
+  }
+
+  .ab3_cont_box p{
+    font-size: 0.8em;
+  }
+
+  .ab3_txt_spe{
+    font-size: 0.59em;
+  }
+
+  .ab3_box_sec{
+    padding-bottom:13%;
+  }
+
+  
 
 }
 
