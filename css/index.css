@@ -531,6 +531,7 @@ header.activated .ham_bt i{
  
  .coin_cont_right_right{
    width: 50%;
+   margin-left: 50px;
  }
  
  .coin_cont_figure{
@@ -539,7 +540,8 @@ header.activated .ham_bt i{
  }
  
  .coin_cont_figure li{
-   margin-bottom: 8%;
+   margin-bottom: 9%;
+   text-align: left;
  }
  
  .coin_cont_figure .box{
